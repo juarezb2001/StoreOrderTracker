@@ -1,0 +1,6 @@
+@StoreOrderTracker.Server_HostAddress = http://localhost:5137
+
+GET {{StoreOrderTracker.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

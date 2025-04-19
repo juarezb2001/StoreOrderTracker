@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36015.10 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "storeordertracker.client", "storeordertracker.client\storeordertracker.client.esproj", "{730E2762-425A-36ED-8E94-E57D5C566149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreOrderTracker.Server", "StoreOrderTracker.Server\StoreOrderTracker.Server.csproj", "{B1E5DB9C-109F-4979-869C-28709A0869E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730E2762-425A-36ED-8E94-E57D5C566149}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1E5DB9C-109F-4979-869C-28709A0869E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E5DB9C-109F-4979-869C-28709A0869E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E5DB9C-109F-4979-869C-28709A0869E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E5DB9C-109F-4979-869C-28709A0869E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4100880F-5951-4EA9-B0E3-A0EEC18E7C56}
+	EndGlobalSection
+EndGlobal
