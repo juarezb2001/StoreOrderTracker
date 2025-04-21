@@ -1,6 +1,12 @@
 @StoreOrderTracker.Server_HostAddress = http://localhost:5137
 
-GET {{StoreOrderTracker.Server_HostAddress}}/weatherforecast/
+POST {{StoreOrderTracker.Server_HostAddress}}/AddOrders
 Accept: application/json
 
+{
+            "CustomerName": "bob",
+            "CustomerPhoneNumber": "1234",
+            "Order" : "shirt",
+            "AmountDue": "0.00"
+}
 ###
